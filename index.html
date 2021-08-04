@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>WORKOUT</title>
+  </head>
+  <style>
+    h1{
+      color: black;
+      font-size: 40px;
+      text-align: center;
+      border-bottom: 3px solid black;
+      margin-bottom: 0;
+      padding-bottom: 20px;
+    }
+    #grid{
+      color: black;
+      display: grid;
+      grid-template-columns: 180px 1fr;
+    }
+    #grid .division{
+      border-right: 2px solid black;
+    }
+    #grid .playlist{
+      text-decoration: none;
+    }
+    #grid p.famous{
+      padding: 30px;
+      font-size: 35px;
+      margin: 0;
+    }
+  </style>
+  <body>
+      <h1>WORKOUT</h1>
+      <div id="grid">
+        <div class="division">
+          <h2>요일별 운동</h2>
+            <ul>
+              <li><a href="monday.html">MONDAY</a></li>
+              <li><a href="tuesday.html">TUESDAY</a></li>
+              <li><a href="wednesday.html">WEDNESDAY</a></li>
+              <li><a href="thursday.html">THURSDAY</a></li>
+              <li><a href="friday.html">FRIDAY</a></li>
+              <li><a href="saturday.html">SATURDAY</a></li>
+              <li><a href="sunday.html">SUNDAY</a></li>
+            </ul>
+
+          <h3><a href="playlist.html" class="playlist">운동 플레이리스트</a></h3>
+        </div>
+
+        <div>
+          <p class="famous"><strong>No Pain No Gain</strong></p>
+
+        </div>
+     </div>
+  </body>
+</html>

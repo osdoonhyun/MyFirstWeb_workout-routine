@@ -1,0 +1,28 @@
+a {
+  text-decoration: underline;
+  color: black;
+}
+h1{
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  border-bottom: 3px solid black;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+#grid{
+  color: black;
+  display: grid;
+  grid-template-columns: 180px 1fr;
+}
+#grid .division{
+  border-right: 2px solid black;
+}
+#grid .playlist{
+  text-decoration: none;
+}
+#grid p.famous{
+  padding: 30px;
+  font-size: 35px;
+  margin: 0;
+}
